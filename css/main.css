@@ -321,14 +321,12 @@ img {
 @media screen and (min-width: 480px) {
   .team-item .team-photo {
     width: 418px;
-    height: 346px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .team-item .team-photo {
     width: 450px;
-    height: 346px;
   }
 }
 
@@ -343,7 +341,6 @@ img {
             justify-content: center;
     margin: 0;
     width: 370px;
-    height: 502px;
   }
 }
 
@@ -384,6 +381,7 @@ img {
           justify-content: space-evenly;
   padding-left: 82px;
   padding-right: 82px;
+  cursor: pointer;
 }
 
 .team-item .team-links {
@@ -415,7 +413,7 @@ img {
   border-radius: 50%;
   width: 44px;
   height: 44px;
-  cursor: auto;
+  cursor: pointer;
 }
 
 .team-item .icon:hover {
