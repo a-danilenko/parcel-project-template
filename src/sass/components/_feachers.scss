@@ -213,9 +213,7 @@ p {
 // Achievement-description
 
 .info-achievement {
-  @media screen and (min-width: $mobile) {
-    padding-top: 84px;
-  }
+  padding-top: 84px;
 
   @media screen and (min-width: $tablet) {
     padding-top: 100px;
