@@ -14,11 +14,11 @@ p {
 }
 
 .container-achievement {
-  position: relative;
   margin-left: auto;
   margin-right: auto;
 
   @media screen and (min-width: $mobile) {
+    position: relative;
     width: 480px;
     height: 786px;
     padding: 0 30px;
@@ -53,12 +53,12 @@ p {
 // }
 
 .box-achievement {
-  position: absolute;
   padding: 20px;
   text-align: center;
   background-color: #f7f7f7;
 
   @media screen and (min-width: $mobile) {
+    position: absolute;
     width: 193px;
     height: 133px;
   }
@@ -213,9 +213,7 @@ p {
 // Achievement-description
 
 .info-achievement {
-  @media screen and (min-width: $mobile) {
-    padding-top: 84px;
-  }
+  padding-top: 84px;
 
   @media screen and (min-width: $tablet) {
     padding-top: 100px;
@@ -228,7 +226,7 @@ p {
 }
 
 .main-text-achievement {
-  width: 420px;
+  // width: 100%;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;

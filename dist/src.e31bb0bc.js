@@ -189,7 +189,9 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\images\\price.png":[["price.b6cb995c.png","images/price.png"],"images/price.png"],"./..\\images\\price@2x.png":[["price@2x.0eef4a39.png","images/price@2x.png"],"images/price@2x.png"],"./..\\images\\plus.svg":[["plus.500a6d38.svg","images/plus.svg"],"images/plus.svg"],"./..\\images\\foot-bg.png":[["foot-bg.9e0dabe0.png","images/foot-bg.png"],"images/foot-bg.png"],"./..\\images\\foot-bg@2x.png":[["foot-bg@2x.d7e31222.png","images/foot-bg@2x.png"],"images/foot-bg@2x.png"],"./..\\images\\foot-bg@3x.png":[["foot-bg@3x.b453e90a.png","images/foot-bg@3x.png"],"images/foot-bg@3x.png"],"./..\\images\\foot-bg-tabl.png":[["foot-bg-tabl.f702e5b9.png","images/foot-bg-tabl.png"],"images/foot-bg-tabl.png"],"./..\\images\\foot-bg-tabl@2x.png":[["foot-bg-tabl@2x.fb71a571.png","images/foot-bg-tabl@2x.png"],"images/foot-bg-tabl@2x.png"],"./..\\images\\foot-bg-tabl@3x.png":[["foot-bg-tabl@3x.6fb3d961.png","images/foot-bg-tabl@3x.png"],"images/foot-bg-tabl@3x.png"],"./..\\images\\foot-bg-desk.png":[["foot-bg-desk.8c7c62ed.png","images/foot-bg-desk.png"],"images/foot-bg-desk.png"],"./..\\images\\foot-bg-desk@2x.png":[["foot-bg-desk@2x.e112614f.png","images/foot-bg-desk@2x.png"],"images/foot-bg-desk@2x.png"],"./..\\images\\foot-bg-desk@3x.png":[["foot-bg-desk@3x.c62708ec.png","images/foot-bg-desk@3x.png"],"images/foot-bg-desk@3x.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+
+},{"./..\\images\\head3_480m.jpg":[["head3_480m.1306c659.jpg","images/head3_480m.jpg"],"images/head3_480m.jpg"],"./..\\images\\head3_609t.jpg":[["head3_609t.268837a7.jpg","images/head3_609t.jpg"],"images/head3_609t.jpg"],"./..\\images\\head3_1125.jpg":[["head3_1125.937259c3.jpg","images/head3_1125.jpg"],"images/head3_1125.jpg"],"./..\\images\\price.png":[["price.b6cb995c.png","images/price.png"],"images/price.png"],"./..\\images\\price@2x.png":[["price@2x.0eef4a39.png","images/price@2x.png"],"images/price@2x.png"],"./..\\images\\plus.svg":[["plus.500a6d38.svg","images/plus.svg"],"images/plus.svg"],"./..\\images\\foot-bg.png":[["foot-bg.9e0dabe0.png","images/foot-bg.png"],"images/foot-bg.png"],"./..\\images\\foot-bg@2x.png":[["foot-bg@2x.d7e31222.png","images/foot-bg@2x.png"],"images/foot-bg@2x.png"],"./..\\images\\foot-bg@3x.png":[["foot-bg@3x.b453e90a.png","images/foot-bg@3x.png"],"images/foot-bg@3x.png"],"./..\\images\\foot-bg-tabl.png":[["foot-bg-tabl.f702e5b9.png","images/foot-bg-tabl.png"],"images/foot-bg-tabl.png"],"./..\\images\\foot-bg-tabl@2x.png":[["foot-bg-tabl@2x.fb71a571.png","images/foot-bg-tabl@2x.png"],"images/foot-bg-tabl@2x.png"],"./..\\images\\foot-bg-tabl@3x.png":[["foot-bg-tabl@3x.6fb3d961.png","images/foot-bg-tabl@3x.png"],"images/foot-bg-tabl@3x.png"],"./..\\images\\foot-bg-desk.png":[["foot-bg-desk.8c7c62ed.png","images/foot-bg-desk.png"],"images/foot-bg-desk.png"],"./..\\images\\foot-bg-desk@2x.png":[["foot-bg-desk@2x.e112614f.png","images/foot-bg-desk@2x.png"],"images/foot-bg-desk@2x.png"],"./..\\images\\foot-bg-desk@3x.png":[["foot-bg-desk@3x.c62708ec.png","images/foot-bg-desk@3x.png"],"images/foot-bg-desk@3x.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+
 "use strict";
 
 require("./sass/main.scss");
@@ -221,6 +223,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
+
   var ws = new WebSocket(protocol + '://' + hostname + ':' + "21152" + '/');
 
   ws.onmessage = function (event) {
