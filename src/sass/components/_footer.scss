@@ -159,6 +159,7 @@
 }
 
 .appointment-labels {
+  display: block; // for iOS
   position: relative;
   text-transform: uppercase;
 

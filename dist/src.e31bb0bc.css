@@ -702,6 +702,7 @@ img {
   .price-services {
     display: flex;
     flex-direction: row;
+
     padding: 0;
   }
 }
@@ -1056,6 +1057,7 @@ p {
   margin-left: 80px;
   padding: 0;
 }
+
 @media screen and (min-width: 768px) {
   .team-text {
     margin-left: 200px;
@@ -1091,6 +1093,7 @@ p {
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (min-width: 768px) {
   .section-title {
     margin-left: 120px;
@@ -1133,10 +1136,12 @@ p {
     padding-right: 30px;
     margin-bottom: 0px;
   }
+  
   .team-item:last-child {
     padding-right: 0px;
   }
 }
+
 .team-item .team-photo {
   margin-bottom: 30px;
   justify-content: center;
@@ -1171,6 +1176,7 @@ p {
   font-size: 18px;
   line-height: 1.39;
   letter-spacing: 0.02em;
+  
   margin-bottom: 8px;
 }
 .team-item .team-role {
@@ -1189,6 +1195,7 @@ p {
 .team-item .social-links {
   display: flex;
   justify-content: center;
+
   cursor: pointer;
 }
 .team-item .team-links {
